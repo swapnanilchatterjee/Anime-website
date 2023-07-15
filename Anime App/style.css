@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.logo_container{
+    height: 100px;
+    background-color: #3e4141;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1920px;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+.logo p{
+ font-size: 20px;
+ font-weight: 550;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.panel_ops{
+    height: 50px;
+    background-color:rgb(52, 49, 49);
+    font-size: 40px;
+    width: 1920px;
+}
+.panel_ops a{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:650 ;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+.panel_top{
+    background-image: url("Tanjiro.jpg");
+    height: 1220px;;
+    width: 1920px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    animation: change 10s infinite ease-in-out;
+}
+.panel_pic img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+.panel_pic1 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 0.5px;
+    padding-left: 20px;
+}
+.panel_pic{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+@keyframes change{
+    0%{
+        background-image: url("DemonSlayer.jpg");
+    }
+    20%{
+        background-image: url("yn.png");
+    }
+    40%{
+        background-image: url("wwy.jpg");
+    }
+    60%{
+        background-image: url("iwp.jpg");
+    }
+    80%{
+        background-image: url("mhm.jpg");
+    }
+    100%{
+        background-image: url("yla.jpg");
+    }
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 750px;
+    height: 40px;
+    border-radius:none;
+    padding-left: 700px;
+    padding-top: 250px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 40px;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #ffdd95;
+    box-sizing: border-box;
+    width: 50px;
+   border-radius: 30px;
+   margin-left: 5px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid relative;
+}
+footer{
+    margin-top: 2px;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    width: 1900px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+u{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding-left: 2px;
+    text-decoration: none;
+}
+u p{
+    padding-top: 10px;
+}
+u a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    width: 1920px;
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: relative;
+    text-decoration: none;
+}
+.box{
+    /* border: 2px solid black;*/
+     height: 400px;
+     width: 23%;
+     background-color: relative;
+     padding: 20px 0px 2px;
+     margin: 5px;
+ 
+ }
+ .box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.box-content p{
+    color: rgba(12, 80, 237, 0.923);
+}
+.shop-section a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 550;
+}
+
+.searching p{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.searching a{
+    color: rgb(51, 48, 48);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
